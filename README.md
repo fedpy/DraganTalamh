@@ -4,10 +4,10 @@
 Dragan Talamh is an awesome character build/generator for the D&D universe.
 
 ## Quick Start
-Dear Contributors, please read the [Getting Started Guide](https://github.com/fedpy/DraganTalamh/docs/GETTING-STARTED.md) before commencing any development efforts, thank you!
+Dear Contributors, please read the [Getting Started Guide](GETTING-STARTED.md) before commencing any development efforts, thank you!
 
 ## 	Changelog
-Learn more about [latest improvements](https://github.com/fedpy/DraganTalamh/CHANGELOG.md).
+Learn more about [latest improvements](CHANGELOG.md).
 
 ### TODO
 - [ ] Create Getting Started Document
@@ -15,3 +15,4 @@ Learn more about [latest improvements](https://github.com/fedpy/DraganTalamh/CHA
 - [ ] Git Commands
 - [ ] Naming Conventions
 - [ ] Git Best Practices
+- [x] Fix Relative Links
