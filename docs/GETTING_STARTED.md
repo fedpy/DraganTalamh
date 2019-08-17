@@ -1,7 +1,6 @@
-# Dragan Talamh need you!
+# Dragan Talamh Need You!
 
 ## Introduction
-
 The project will primarily use **development** branch for all development efforts. The **master** branch will hold the most current version of the project which will be managed by the Code Owners [@fedpy](https://github.com/fedpy/) and [@Mark-Barry](https://github.com/Mark-Barry). Should there be a need to create a feature and/or functionality that is outside from the original project scope, a branch **features** will be used.
 
 - **master** is the most current version of the application
@@ -10,8 +9,8 @@ The project will primarily use **development** branch for all development effort
 
 Position | Person
 ------------ | -------------
-:sunglasses: Product Owner | [@Mark-Barry](https://github.com/Mark-Barry)
-:neckbeard: Project Manager | [@fedpy](https://github.com/fedpy/)
+:bowtie: Product Owner | [@Mark-Barry](https://github.com/Mark-Barry)
+:penguin: Project Manager | [@fedpy](https://github.com/fedpy/)
 
 ## Programming Language
 The Dragan Talamh is being developed primarily using [C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) programming language.

@@ -9,7 +9,7 @@ The Dragan Talamh project is using [C# .NET Framework version 4.7.2](https://doc
 For Windows users we strongly recommend using [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) edition. For our Linux brothers and sisters we recommend using [MonoDevelop](https://www.monodevelop.com/) with [Microsoft .NET Core SDK](https://dotnet.microsoft.com/download/linux-package-manager/ubuntu18-04/sdk-current) and [Microsoft .NET Core 2.1 Runtime](https://dotnet.microsoft.com/download/linux-package-manager/ubuntu18-04/runtime-2.1.12). Just be aware that by default Microsoft is collecting telemetry data while using any of their products under Linux.
 
 ## Git
-We are using Git as our Version Control System. Basic knowledge and understanding of how Git works is necessary to contribute to the project. There is tones of tutorials out there on how to get started with Git. We recommend participating in free ["Learn Git"](https://www.codecademy.com/learn/learn-git) online course made by Code Academy to get started.
+We are using Git as our Version Control System. Basic knowledge and understanding of how Git works is necessary to contribute to the project. There is tones of tutorials out there on how to get started with Git. We recommend participating in free ["Learn Git"](https://www.codecademy.com/learn/learn-git) online course made by Code Academy to get up to speed!
 
 ## Code Conventions
 #### File Organization
