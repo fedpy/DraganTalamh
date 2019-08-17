@@ -8,7 +8,7 @@ Dear Contributors, please read the following documents before commencing any dev
 - [Getting Started Guide](https://github.com/fedpy/DraganTalamh/blob/master/docs/GETTING_STARTED.md) for Humans
 - [Contributing Guide](https://github.com/fedpy/DraganTalamh/blob/master/docs/CONTRIBUTING.md) for Software Developers
 - [Code of Conduct](https://github.com/fedpy/DraganTalamh/blob/master/docs/CODE_OF_CONDUCT.md) is to be adhered to at all times!
-- [Git Recipes](https://github.com/fedpy/DraganTalamh/blob/master/docs/CODE_OF_CONDUCT.md) is a handy reference of Git commands
+- [Git Recipes](https://github.com/fedpy/DraganTalamh/blob/master/docs/GIT_RECIPES.md) is a handy reference of Git commands
 
 ## 	Changelog
 Learn more about [latest improvements](CHANGELOG.md).
