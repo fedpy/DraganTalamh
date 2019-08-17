@@ -4,7 +4,7 @@
 Dragan Talamh is an awesome character build/generator for the D&D universe.
 
 ## Quick Start
-Dear Contributors, please read the following documents before commencing any development efforts:
+Dear Contributors, please read the following documents before commencing development:
 - [Getting Started Guide](https://github.com/fedpy/DraganTalamh/blob/master/docs/GETTING_STARTED.md) for Humans
 - [Contributing Guide](https://github.com/fedpy/DraganTalamh/blob/master/docs/CONTRIBUTING.md) for Software Developers
 - [Code of Conduct](https://github.com/fedpy/DraganTalamh/blob/master/docs/CODE_OF_CONDUCT.md) is to be adhered to at all times!
@@ -14,14 +14,14 @@ Dear Contributors, please read the following documents before commencing any dev
 Learn more about [latest improvements](CHANGELOG.md).
 
 ### TODO
-**Not started** tasks :grin:
+:on: **Not started** tasks :grin:
 
 Nothing here yet, happy days!
 
-Tasks **under progress** :blush:
-- [ ] Create and populate README file
-- [ ] Create and populate GIT_RECIPES file
-- [ ] Create and populate CONTRIBUTING file
+:soon: Tasks **under progress** :blush:
+- [ ] ~~Create and~~ populate README file
+- [ ] ~~Create and~~ populate GIT_RECIPES file
+- [ ] ~~Create and~~ populate CONTRIBUTING file
 - [ ] Code Conventions for the project:
   - [ ] File Organization
   - [ ] Comments
@@ -32,7 +32,7 @@ Tasks **under progress** :blush:
   - [ ] Constants Naming
   - [ ] Special Considerations
 
-**Completed** Tasks :smile_cat:!
+:end: **Completed** Tasks :smile_cat:!
 - [x] ~~Review and fix links~~
 - [x] ~~Create and populate LICENSE file~~
 - [x] ~~Create and populate GETTING_STARTED file~~

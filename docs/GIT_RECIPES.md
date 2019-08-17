@@ -12,62 +12,70 @@ Please, please, please write meaningful Commit messages! Commit messages are vit
 
 Push only when you have fully implemented solution you have been tasked to do or you are going away from keyboard. Resist from Pushing unnecessarily as it will clutter the history of the project.
 
-# Windows Instructions
+## Windows Instructions
 - This is intentionally left ambigious.
 
-# Command Line Instructions
-## Initial Setup
-- Grab a copy of current version of Dragan Talamh project:
+## Command Line Instructions
+### Initial Setup
+Grab a copy of current version of Dragan Talamh project:
 ```
 git clone https://github.com/fedpy/DraganTalamh.git
 ```
-- Get all commits and branches:
+
+Get all commits and branches:
 ```
 git fetch
 ```
-- Switch to **development** branch:
+
+Switch to **development** branch:
 ```
 git checkout -b development
 ```
-- If you receive an error stating that the branch already exists, use this command instead:
+
+If you receive an error stating that the branch already exists, use this command instead:
 ```
 git checkout development
 ```
-- Update your local **development** branch:
+
+Update your local **development** branch:
 ```
 git pull origin development
 ```
 
-Well done! You are now ready to write an amazing code :star2:!
+Well done! You are now ready to write an :star2: code!
 
-## Before you start working!
-- Always check for the latest version of **development** branch
+### Before you start working!
+Always check for the latest version of **development** branch:
 ```
 git pull origin development
 ```
-- Get all commits and branches:
+
+Get all commits and branches:
 ```
 git fetch
 ```
 
 Well done! Make sure to have plenty :coffee: and :cake: within reach before commencing any work!
 
-## Sending your work to Git
-- Stage files for the next commit
+### Sending your work to Git
+Stage your files for the next commit:
 ```
 git add -A
 ```
-- Check the working tree status
+
+Check the working tree status:
 ```
 git status
 ```
-- Commit your work!
+
+Save your work:
 ```
 git commit -m "Message for your commit goes here"
 ```
-- Push your work to the **development** branch
+
+Send your work to the **development** branch:
 ```
 git push -u origin development
 ```
 
-Well done! Enjoy your coffee, tea, water or whatever other fluid! :tropical_drink:
+Well done! Enjoy your coffee, tea, :tropical_drink: or whatever other fluid!
