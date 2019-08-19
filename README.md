@@ -19,7 +19,7 @@ Learn more about [latest improvements](CHANGELOG.md).
 Nothing here yet, happy days!
 
 :soon: Tasks **under progress** :blush:
-- [ ] ~~Create and populate README file ~~
+- [ ] ~~Create and populate README file~~
 - [ ] ~~Create and~~ populate GIT_RECIPES file
 - [ ] ~~Create and~~ populate CONTRIBUTING file
 - [ ] Code Conventions for the project:
