@@ -1,16 +1,16 @@
 # Git Guidelines
 
 ## Introduction
-This document is a mixture of Git recipes to support Dragan Talamh contributors while using Git. The recipes are written for Windows and Linux users. We will assume that you have Git installed on your machine. If not, installer for Windows can be found [here](https://git-scm.com/download/win) and for Linux [here](https://github.com/git/git) or [here](https://mirrors.edge.kernel.org/pub/software/scm/git/).
+This document is a mixture of Git recipes to support Dragan Talamh contributors while using Git. The recipes are written for Windows and Linux users. We will assume that you have Git installed on your machine. If not, the installer for Windows can be found [here](https://git-scm.com/download/win) and for Linux [here](https://github.com/git/git) or [here](https://mirrors.edge.kernel.org/pub/software/scm/git/).
 
-For those who want to learn more about ~~dark magic~~ Git, we recommend a publication written by Seth Robertson called ["Commit Often, Perfect Later, Publish Once: Git Best Practices"](https://sethrobertson.github.io/GitBestPractices/) where author disputes the intricacies of Git.
+For those who want to learn more about ~~dark magic~~ Git, we recommend a publication written by Seth Robertson called ["Commit Often, Perfect Later, Publish Once: Git Best Practices"](https://sethrobertson.github.io/GitBestPractices/) where the author discusses the intricacies of Git.
 
 ## Recommendations:
 Commit often! Bare in mind that Commit !== Push. You should always Commit often to have multiple snapshots of your work in your local repository. Should anything bad happen, it is possible to restore files from just your local repository.
 
 Please, please, please write meaningful Commit messages! Commit messages are vital to sustain sanity of everyone involved in the project. They are also a very useful tool in resolving conflicts, merging branches and generally proving how awesome you are!
 
-Push only when you have fully implemented solution you have been tasked to do or you are going away from keyboard. Resist from Pushing unnecessarily as it will clutter the history of the project.
+Push only when you have fully implemented a solution that you have been tasked to do or you are going away from keyboard. Resist from Pushing unnecessarily as it will clutter the history of the project.
 
 ## Windows Instructions
 - This is intentionally left ambigious.
