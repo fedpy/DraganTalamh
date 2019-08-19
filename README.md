@@ -1,7 +1,7 @@
 # Welcome to Dragan Talamh, Stranger!
 
 ## What is Dragan Talamh?
-Dragan Talamh is an awesome character build/generator for the D&D universe.
+Dragan Talamh is an awesome character builder/generator for the D&D universe.
 
 ## Quick Start
 Dear Contributors, please read the following documents before commencing development:
