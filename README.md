@@ -14,13 +14,12 @@ Dear Contributors, please read the following documents before commencing develop
 Learn more about [latest improvements](CHANGELOG.md).
 
 ### TODO
- **Not started** tasks :grin:
+:soon: **Not started** tasks :grin:
 
-:soon: Nothing here yet, happy days!
+Nothing here yet, happy days!
 
 :on: Tasks **under progress** :blush:
 - [ ] ~~Create and~~ populate GIT_RECIPES file
-- [ ] ~~Create and~~ populate CONTRIBUTING file
 - [ ] Code Conventions for the project:
   - [ ] File Organization
   - [ ] Comments
@@ -35,5 +34,6 @@ Learn more about [latest improvements](CHANGELOG.md).
 - [x] ~~Review and fix links~~
 - [x] ~~Create and populate README file~~
 - [x] ~~Create and populate LICENSE file~~
+- [x] ~~Create and populate CONTRIBUTING file~~
 - [x] ~~Create and populate GETTING_STARTED file~~
 - [x] ~~Create and populate CODE_OF_CONDUCT file~~
