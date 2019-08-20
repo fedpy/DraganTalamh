@@ -17,17 +17,39 @@ Code Conventions are important to Software Developers for serveral reasons. Code
 #### File Organization
 - This is intentionally left ambigious.
 #### Comments
-- This is intentionally left ambigious.
+- Files: Block comments at the beginning of all files giving a brief descriptions of the file. The Creator of the file and the date created
+//======================================
+//= Author:                            =
+//= Date:                              =
+//======================================
+//= Description:                       =
+//=                                    =
+//=                                    =
+//======================================
+
+- Methods: Short description of the method and what it does as well as the author of the method and the date it was created
+//======================================
+//= Author:                            =
+//= Date:                              =
+//======================================
+//= Method Description:                =
+//=                                    =
+//=                                    =
+//======================================
+
+- Code: Only comment complex code, a single line comment to describe what it's doing, if there are multiple lines comment above each line individually
+//The below line of code.... (describe functionality) .....
+
 #### Class Naming
-- This is intentionally left ambigious.
+- PascalCase
 #### Method Naming
-- This is intentionally left ambigious.
+- PascalCase
 #### Instance Variable Naming
-- This is intentionally left ambigious.
+- m_camelCase
 #### Local Variable Naming
-- This is intentionally left ambigious.
+- camelCase
 #### Constants Naming
-- This is intentionally left ambigious.
+- c_camelCase
 #### Special Considerations
 - This is intentionally left ambigious.
 
