@@ -20,20 +20,12 @@ Nothing here yet, happy days!
 
 :on: Tasks **under progress** :blush:
 - [ ] ~~Create and~~ populate GIT_RECIPES file
-- [ ] Code Conventions for the project:
-  - [ ] File Organization
-  - [ ] Comments
-  - [ ] Class Naming
-  - [ ] Method Naming
-  - [ ] Instance Variable Naming
-  - [ ] Local Variable Naming
-  - [ ] Constants Naming
-  - [ ] Special Considerations
 
 :end: **Completed** Tasks :smile_cat:!
 - [x] ~~Review and fix links~~
 - [x] ~~Create and populate README file~~
 - [x] ~~Create and populate LICENSE file~~
+- [x] ~~Code Conventions for the project~~
 - [x] ~~Create and populate CONTRIBUTING file~~
 - [x] ~~Create and populate GETTING_STARTED file~~
 - [x] ~~Create and populate CODE_OF_CONDUCT file~~
