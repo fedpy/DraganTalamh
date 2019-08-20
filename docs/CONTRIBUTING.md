@@ -1,4 +1,5 @@
-# Dragan Talamh forever!
+# Contributing Guide - Dragan Talamh
+
 ## Introduction
 This guide has been created with a programming novice in mind. We have combined best practices, guidelines and easy to follow tutorials to give everyone a chance to contribute to the Dragan Talamh project. However, an understanding of basic software development fundamentals and understanding of C# will come in handy!
 
@@ -15,21 +16,55 @@ We are using Git as our Version Control System. Basic knowledge and understandin
 Code Conventions are important to Software Developers for serveral reasons. Code Conventions improve the quality and readibility of the code. Majority of the code is maintaned by a team of people. We expect our contributors to adhere to the following Code Conventions at all times.
 
 #### File Organization
-- This is intentionally left ambigious.
+Please ask for or follow the instructions given to you by the [Project Manager](https://github.com/fedpy) and/or [Product Owner](https://github.com/Mark-Barry).
+
 #### Comments
-- This is intentionally left ambigious.
+- Files: Block comments **at the beginning of all files** giving a brief descriptions of the file. The Creator of the file and the date created
+```
+// ======================================
+// = Author:                            =
+// = Date:                              =
+// ======================================
+// = Description:                       =
+// =                                    =
+// =                                    =
+// ======================================
+```
+
+- Methods: Short description of the method and what it does as well as the author of the method and the date it was created
+```
+// ======================================
+// = Author:                            =
+// = Date:                              =
+// ======================================
+// = Method Description:                =
+// =                                    =
+// =                                    =
+// ======================================
+```
+
+- Code: Please only comment complex code, a single line comment to describe what it's doing, if there are multiple lines comment above each line individually
+```
+// The below line of code.... (describe functionality) .....
+```
+
 #### Class Naming
-- This is intentionally left ambigious.
+- Pascal Case: ThisIsAnAwesomeExampleOfThePascalCaseCodeItIsTotallyFun
+
 #### Method Naming
-- This is intentionally left ambigious.
+- Pascal Case: YetAnotherGreatExampleOfPascalCaseThatIsSoFun
+
 #### Instance Variable Naming
-- This is intentionally left ambigious.
+- Camel Case prefixed by **m_**: m_exampleInstanceVariableName
+
 #### Local Variable Naming
-- This is intentionally left ambigious.
+- Camel Case: thisIsNotSoAwesomeExampleButItIsStillFineWithUs
+
 #### Constants Naming
-- This is intentionally left ambigious.
+- Pascal Case prefixed by **C_**: C_AnotherExampleofConstantsNaming
+
 #### Special Considerations
-- This is intentionally left ambigious.
+Should you have any questions before, during or after the development please don't hesitate to contact [Project Manager](https://github.com/fedpy).
 
 ## Semantic Versioning
 We are using [Semantic Versioning](https://semver.org/spec/v2.0.0.html) to manage versioning of our project.
