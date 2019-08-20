@@ -1,4 +1,4 @@
-# Dragan Talamh Need You!
+# Getting Started Guide - Dragan Talamh
 
 ## Introduction
 The project will primarily use **development** branch for all development efforts. The **master** branch will hold the most current version of the project which will be managed by the Code Owners [@fedpy](https://github.com/fedpy/) and [@Mark-Barry](https://github.com/Mark-Barry). Should there be a need to create a feature and/or functionality that is outside from the original project scope, a branch **features** will be used.
@@ -16,6 +16,9 @@ Position | Person
 Software Developer (C#) | [@jawakow](https://github.com/jawakow)
 Software Developer (C#) | [@k3y5tr0k3](https://github.com/k3y5tr0k3)
 Software Developer (C#) | [@lewismcc](https://github.com/lewismcc)
+Software Developer (C#) | [@GintsGavars](https://github.com/GintsGavars)
+Software Developer (C#) | [@aindriu18](https://github.com/aindriu18)
+Software Developer (C#) | [@vavasour](https://github.com/vavasour)
 
 ## Programming Language
 The Dragan Talamh is being developed primarily using [C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) programming language.
