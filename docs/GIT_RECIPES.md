@@ -1,4 +1,4 @@
-# Git Guidelines
+# Git Recipes - Dragan Talamh
 
 ## Introduction
 This document is a mixture of Git recipes to support Dragan Talamh contributors while using Git. The recipes are written for Windows and Linux users. We will assume that you have Git installed on your machine. If not, the installer for Windows can be found [here](https://git-scm.com/download/win) and for Linux [here](https://github.com/git/git) or [here](https://mirrors.edge.kernel.org/pub/software/scm/git/).
