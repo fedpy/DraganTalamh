@@ -11,7 +11,8 @@ Dear Contributors, please read the following documents before commencing develop
 - [Git Recipes](https://github.com/fedpy/DraganTalamh/blob/master/docs/GIT_RECIPES.md) is a handy reference of Git commands
 
 ## Announcements
-22nd Aug 2019 - Dragan Talamh is in posession of dragantalamh.ie domain name!
+- 22 Aug 2019 - Dragan Talamh is in posession of dragantalamh.ie domain name
+- 16 Aug 2019 - Dragan Talamh project has been launched!
 
 ## 	Changelog
 Learn more about [latest improvements](CHANGELOG.md).
