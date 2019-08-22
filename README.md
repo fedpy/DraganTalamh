@@ -7,8 +7,11 @@ Dragan Talamh is an awesome character builder/generator for the D&D universe.
 Dear Contributors, please read the following documents before commencing development:
 - [Getting Started Guide](https://github.com/fedpy/DraganTalamh/blob/master/docs/GETTING_STARTED.md) for Humans
 - [Contributing Guide](https://github.com/fedpy/DraganTalamh/blob/master/docs/CONTRIBUTING.md) for Software Developers
-- [Code of Conduct](https://github.com/fedpy/DraganTalamh/blob/master/docs/CODE_OF_CONDUCT.md) is to be adhered to at all times!
+- [Code of Conduct](https://github.com/fedpy/DraganTalamh/blob/master/docs/CODE_OF_CONDUCT.md) is to be adhered to at all times
 - [Git Recipes](https://github.com/fedpy/DraganTalamh/blob/master/docs/GIT_RECIPES.md) is a handy reference of Git commands
+
+## Announcements
+22nd Aug 2019 - Dragan Talamh is in posession of dragantalamh.ie domain name!
 
 ## 	Changelog
 Learn more about [latest improvements](CHANGELOG.md).
@@ -16,7 +19,12 @@ Learn more about [latest improvements](CHANGELOG.md).
 ### TODO
 :soon: **Not started** tasks :grin:
 
-Nothing here yet, happy days!
+- [ ] Announce project **D-E-A-D-LINE**
+- [ ] Choose appropriate Scrum tool
+- [ ] Design User Interface(s)
+- [ ] Design UML diagrams
+- [ ] Define development Milestones
+- [ ] Define development Sprints
 
 :on: Tasks **under progress** :blush:
 - [ ] ~~Create and~~ populate GIT_RECIPES file
