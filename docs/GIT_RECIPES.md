@@ -3,6 +3,10 @@
 ## Introduction
 This document is a mixture of Git recipes to support Dragan Talamh contributors while using Git. The recipes are written for Windows and Linux users. We will assume that you have Git installed on your machine. If not, the installer for Windows can be found [here](https://git-scm.com/download/win) and for Linux [here](https://github.com/git/git) or [here](https://mirrors.edge.kernel.org/pub/software/scm/git/).
 
+You can also choose to use [Cmder](https://cmder.net/), which is a portable console emulator that improves the default Windows Console. The full version already has git installed and added to the Path.
+
+If you're more likely to use a GUI, you also may like to install [GitExensions](https://github.com/gitextensions/gitextensions/releases/tag/v3.1.1), which is a nice GUI git client, and adds extensions for VisualStudio integration. Also [Kdiff](http://kdiff3.sourceforge.net/) helps when there's _merge_ issues. _(Don't forget to select Tools->Settings->Git->Config to check your name, e-mail, Mergetool, Difftool and set line endings to *Checkout Windows-style, commit Unix-style line endings*)_.
+
 For those who want to learn more about ~~dark magic~~ Git, we recommend a publication written by Seth Robertson called ["Commit Often, Perfect Later, Publish Once: Git Best Practices"](https://sethrobertson.github.io/GitBestPractices/) where the author discusses the intricacies of Git.
 
 ## Recommendations:
