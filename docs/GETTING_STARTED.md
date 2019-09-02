@@ -30,6 +30,7 @@ Software Developer (C#) | [@moreirayokoyama](https://github.com/moreirayokoyama)
 
 ## Project Patrons
 Thank you :heart: for your invaluable support!
+
 Title | Profile
 ------------ | -------------
 Mr. Dean Harrison | [**Dean-H**](https://github.com/Dean-H)
