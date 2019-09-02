@@ -17,7 +17,7 @@ Please, please, please write meaningful commit messages! Commit messages are vit
 Push only when you have fully implemented a solution that you have been tasked to do or you are going away from your keyboard. Resist from pushing unnecessarily as it will clutter the history of the project.
 
 ## Windows Instructions
-- This is intentionally left ambigious.
+You can find an awesome Git Guide for Visual Studio [right here](https://github.com/fedpy/DraganTalamh/blob/master/docs/vsTutorial.pdf)!
 
 ## Command Line Instructions
 
