@@ -3,9 +3,9 @@
 ## Introduction
 This document is a mixture of Git recipes to support Dragan Talamh contributors while using Git. The recipes are written for Windows and Linux users. We will assume that you have Git installed on your machine. If not, the installer for Windows can be found [here](https://git-scm.com/download/win) and for Linux [here](https://github.com/git/git) or [here](https://mirrors.edge.kernel.org/pub/software/scm/git/).
 
-You can also choose to use [Cmder](https://cmder.net/), which is a portable console emulator that improves the default Windows Console. The full version already has git installed and added to the Path.
+You can also choose to use [Cmder](https://cmder.net/), which is a portable console emulator that improves the default Windows Command Prompt. The full version already has Git installed and added to the PATH variable in Windows.
 
-If you're more likely to use a GUI, you also may like to install [GitExensions](https://github.com/gitextensions/gitextensions/releases/tag/v3.1.1), which is a nice GUI git client, and adds extensions for VisualStudio integration. Also [Kdiff](http://kdiff3.sourceforge.net/) helps when there's _merge_ issues. _(Don't forget to select Tools->Settings->Git->Config to check your name, e-mail, Mergetool, Difftool and set line endings to *Checkout Windows-style, commit Unix-style line endings*)_.
+If you're more comfortable with GUI tools, you may also like [GitExtensions](https://github.com/gitextensions/gitextensions/releases/tag/v3.1.1), which is a nice GUI Git client, and adds extensions for Visual Studio. There is also [Kdiff](http://kdiff3.sourceforge.net/) which helps when there are _merge_ issues. _(Don't forget to select Tools -> Settings -> Git -> Config to set your Name, E-mail, Mergetool, Difftool and line endings to *Checkout Windows-style, commit Unix-style line endings*)_.
 
 For those who want to learn more about ~~dark magic~~ Git, we recommend a publication written by Seth Robertson called ["Commit Often, Perfect Later, Publish Once: Git Best Practices"](https://sethrobertson.github.io/GitBestPractices/) where the author discusses the intricacies of Git.
 
@@ -33,7 +33,7 @@ Get all commits and branches:
 git fetch
 ```
 
-Switch to **development** branch:
+Switch to **development** (or any other) branch:
 ```
 git checkout -b development
 ```
@@ -43,7 +43,7 @@ If you receive an error stating that the branch already exists, use this command
 git checkout development
 ```
 
-Update your local **development** branch:
+Update your local **development** (or any other) branch:
 ```
 git pull origin development
 ```
@@ -52,7 +52,7 @@ Well done! You are now ready to write an :star2: code!
 
 ### Before you start working!
 
-Always check for the latest version of **development** branch:
+Always check for the latest version of **development**  (or any other) branch:
 ```
 git pull origin development
 ```
@@ -81,7 +81,7 @@ Save your work:
 git commit -m "Message for your commit goes here"
 ```
 
-Send your work to the **development** branch:
+Send your work to the **development** (or any other) branch:
 ```
 git push -u origin development
 ```

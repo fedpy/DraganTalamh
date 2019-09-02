@@ -34,37 +34,49 @@ Please ask for or follow the instructions given to you by the [Project Manager](
 // ======================================
 ```
 
-- Methods: Short description of the method and what it does as well as the author of the method and the date it was created
+- Instance Variables: Please use XML style comments
 ```
-// ======================================
-// = Author:                            =
-// = Date:                              =
-// ======================================
-// = Method Description:                =
-// =                                    =
-// =                                    =
-// ======================================
+/// <summary>
+/// 
+/// </summary>
+/// <remarks>
+/// 
+/// </remarks>
+```
+
+- Methods: Please use XML style comments
+```
+/// <summary>
+/// 
+/// </summary>
+/// <param name=""></param>
+/// <returns>
+/// 
+/// </returns>
+/// <remarks>
+/// 
+/// </remarks>
 ```
 
 - Code: Please only comment complex code, a single line comment to describe what it's doing, if there are multiple lines comment above each line individually
 ```
-// The below line of code.... (describe functionality) .....
+// The below line of code.... (Describe functionality) .....
 ```
 
 #### Class Naming
-- Pascal Case: ThisIsAnAwesomeExampleOfThePascalCaseCodeItIsTotallyFun
+- Pascal Case: ThisIsAnAwesomeExample
 
 #### Method Naming
-- Pascal Case: YetAnotherGreatExampleOfPascalCaseThatIsSoFun
+- Pascal Case: YetAnotherGreatExample
 
 #### Instance Variable Naming
-- Camel Case prefixed by **m_**: m_exampleInstanceVariableName
+- Camel Case: exampleMember
 
 #### Local Variable Naming
-- Camel Case: thisIsNotSoAwesomeExampleButItIsStillFineWithUs
+- Camel Case: thisIsNotSoAwesomeExample
 
 #### Constants Naming
-- Pascal Case prefixed by **C_**: C_AnotherExampleofConstantsNaming
+- Hungarian Notation: THISISCONSTANT
 
 #### Special Considerations
 Should you have any questions before, during or after the development please don't hesitate to contact [Project Manager](https://github.com/fedpy).

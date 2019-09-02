@@ -19,15 +19,15 @@ Learn more about [latest improvements](CHANGELOG.md).
 
 ### TODO
 :soon: **Not started** tasks :grin:
-
-- [ ] Announce project **D-E-A-D-LINE**
-- [ ] Choose appropriate Scrum tool
+- [ ] Develop Web Scrapper
 - [ ] Design User Interface(s)
 - [ ] Design UML diagrams
-- [ ] Define development Milestones
+- [ ] Define project Milestones
 - [ ] Define development Sprints
 
 :on: Tasks **under progress** :blush:
+- [ ] Announce project **D-E-A-D-LINE**
+- [ ] Choose appropriate Scrum tool
 - [ ] ~~Create and~~ populate GIT_RECIPES file
 
 :end: **Completed** Tasks :smile_cat:!
