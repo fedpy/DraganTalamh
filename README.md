@@ -26,15 +26,15 @@ Learn more about [latest improvements](CHANGELOG.md).
 - [ ] Define development Sprints
 
 :on: Tasks **under progress** :blush:
-- [ ] Announce project **D-E-A-D-LINE**
 - [ ] Choose appropriate Scrum tool
-- [ ] ~~Create and~~ populate GIT_RECIPES file
 
 :end: **Completed** Tasks :smile_cat:!
 - [x] ~~Review and fix links~~
 - [x] ~~Create and populate README file~~
 - [x] ~~Create and populate LICENSE file~~
 - [x] ~~Code Conventions for the project~~
+- [x] ~~Announce project **D-E-A-D-LINE**~~
 - [x] ~~Create and populate CONTRIBUTING file~~
 - [x] ~~Create and populate GETTING_STARTED file~~
 - [x] ~~Create and populate CODE_OF_CONDUCT file~~
+- [x] ~~Create and populate GIT_RECIPES file~~
