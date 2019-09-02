@@ -14,12 +14,9 @@ namespace DraganTalamh
         [STAThread]
         static void Main()
         {
-            
-            for (int i = 0; i < 101 ; i++)
-            {
-                Console.WriteLine(DiceHandler.DiceTwenty());
-            }
-           
+            //
+            // Please keep this space clear, thank you! <fedpy>
+            //
         }
     }
 }

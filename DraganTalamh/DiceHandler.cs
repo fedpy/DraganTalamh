@@ -13,125 +13,117 @@ using System.Threading.Tasks;
 // =                                    =
 // ======================================
 
-namespace DraganTalamh
+namespace DraganTalamh.Extras
 {
     /// <summary>
-    /// Random dice generator.
+    /// Random dice generator
     /// </summary>
     /// <remarks>
-    /// Simulates the roll of a dice using a random number 
-    /// generator.
+    /// Simulates the roll of a dice using a random number generator
     /// </remarks>
     public static class DiceHandler
     {
-       
-
-        private static Random random = new Random();
+        /// <summary>
+        /// Instantiate the Random object
+        /// </summary>
+        private static Random randomNumber = new Random();
 
         /// <summary>
-        /// Random 4 side dice generator.
+        /// Random 4 side dice generator
         /// </summary>
+        /// <returns>
+        /// An integer number between 1 and 4
+        /// </returns>
         /// <remarks>
-        /// Creates Dice 4 which has the values  
-        /// between 1 and 4.
+        /// Creates Dice 4 which has the values between 1 and 4
         /// </remarks>
-        /// 
         public static int DiceFour()
         {
-            
-            int diceFour = random.Next(1, 5);
-            return diceFour;
+            return randomNumber.Next(1, 5);
         }
 
         /// <summary>
-        /// Random 6 side dice generator.
+        /// Random 6 side dice generator
         /// </summary>
+        /// <returns>
+        /// An integer number between 1 and 6
+        /// </returns>
         /// <remarks>
-        /// Creates Dice 6 which has the values  
-        /// between 1 and 6.
+        /// Creates Dice 6 which has the values between 1 and 6
         /// </remarks>
         public static int DiceSix()
         {
-          
-            int diceSix = random.Next(1, 7);
-            return diceSix;
+            return randomNumber.Next(1, 7);
         }
 
         /// <summary>
-        /// Random 8 side dice generator.
+        /// Random 8 side dice generator
         /// </summary>
+        /// <returns>
+        /// An integer number between 1 and 8
+        /// </returns>
         /// <remarks>
-        /// Creates Dice 8 which has the values  
-        /// between 1 and 8.
+        /// Creates Dice 8 which has the values between 1 and 8
         /// </remarks>
         public static int DiceEight()
         {
-            
-            int diceEight = random.Next(1, 9) + 1;
-            return diceEight;
+            return randomNumber.Next(1, 9);
         }
 
         /// <summary>
-        /// Random 10 side dice generator.
+        /// Random 10 side dice generator
         /// </summary>
+        /// <returns>
+        /// An integer number between 1 and 10
+        /// </returns>
         /// <remarks>
-        /// Creates Dice 10 which has the values  
-        /// between 1 and 10.
+        /// Creates Dice 10 which has the values between 1 and 10
         /// </remarks>
         public static int DiceTen()
         {
-          
-            int diceTen = random.Next(0, 11);
-            return diceTen;
+            return randomNumber.Next(0, 11);
         }
 
         /// <summary>
-        /// Random 100 sided dice generator.
+        /// Random 100 sided dice generator
         /// </summary>
+        /// <returns>
+        /// An integer number between 0 and 100
+        /// </returns>
         /// <remarks>
-        /// Creates Dice 100 which has the values  
-        /// between 0 and 90.
+        /// Creates Dice 100 which has the values between 0 and 100
         /// </remarks>
         public static int DiceOneHundred()
         {
-          
-            int diceOneHundred = random.Next(0, 100) + 1;
-            return diceOneHundred;
+            return randomNumber.Next(0, 101);
         }
 
-
         /// <summary>
-        /// Random 12 sided dice generator.
+        /// Random 12 sided dice generator
         /// </summary>
+        /// <returns>
+        /// An integer number between 1 and 12
+        /// </returns>
         /// <remarks>
-        /// Creates Dice 12 which has the values  
-        /// between 1 and 13.
+        /// Creates Dice 12 which has the values between 1 and 12
         /// </remarks>
         public static int DiceTwelve()
         {
-            
-            int diceTwelve = random.Next(1, 13);
-            return diceTwelve;
+            return randomNumber.Next(1, 13);
         }
 
         /// <summary>
-        /// Random 20 sided dice generator.
+        /// Random 20 sided dice generator
         /// </summary>
+        /// <returns>
+        /// An integer number between 1 and 20
+        /// </returns>
         /// <remarks>
-        /// Creates Dice 20 which has the values  
-        /// between 1 and 20.
+        /// Creates Dice 20 which has the values between 1 and 20
         /// </remarks>
         public static int DiceTwenty()
         {
-            int diceTwenty = random.Next(1, 21);
-            return diceTwenty;
+            return randomNumber.Next(1, 21);
         }
-
-
     }
-
-   
-
 }
-
-
