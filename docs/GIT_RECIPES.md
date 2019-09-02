@@ -12,9 +12,9 @@ For those who want to learn more about ~~dark magic~~ Git, we recommend a public
 ## Recommendations:
 Commit often! Bare in mind that commit !== push. You should always commit often to have multiple snapshots of your work in your local repository. Should anything bad happen, it is possible to restore files from just your local repository.
 
-Please, please, please write meaningful commit messages! Commit messages are vital to sustain sanity of everyone involved in the project. They are also a very useful tool in resolving conflicts, merging branches and generally proving how awesome you are!
+Please, please, please write meaningful commit messages! Commit messages are vital to sustain the sanity of everyone involved in the project. They are also a very useful tool in resolving conflicts, merging branches and generally showing us how awesome you are!
 
-Push only when you have fully implemented a solution that you have been tasked to do or you are going away from keyboard. Resist from pushing unnecessarily as it will clutter the history of the project.
+Push only when you have fully implemented a solution that you have been tasked to do or you are going away from your keyboard. Resist from pushing unnecessarily as it will clutter the history of the project.
 
 ## Windows Instructions
 - This is intentionally left ambigious.
@@ -86,4 +86,4 @@ Send your work to the **development** (or any other) branch:
 git push -u origin development
 ```
 
-Well done! Enjoy your coffee, tea, :tropical_drink: or whatever other fluid!
+Well done! Enjoy your coffee, tea, :tropical_drink: or whatever floats your boat!
