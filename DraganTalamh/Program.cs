@@ -14,9 +14,12 @@ namespace DraganTalamh
         [STAThread]
         static void Main()
         {
-
-            // Console.WriteLine("Dragan Talamh, Wanderer!");
-
+            
+            for (int i = 0; i < 101 ; i++)
+            {
+                Console.WriteLine(DiceHandler.DiceTwenty());
+            }
+           
         }
     }
 }
