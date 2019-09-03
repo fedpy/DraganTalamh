@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DraganTalamh
+namespace DraganTalamh.Extras
 {
     static class Program
     {
@@ -17,6 +17,11 @@ namespace DraganTalamh
             //
             // Please keep this space clear, thank you! <fedpy>
             //
+
+
+            Console.WriteLine(DiceHandler.DiceFour(2));
+
+     
         }
     }
 }

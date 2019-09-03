@@ -37,9 +37,17 @@ namespace DraganTalamh.Extras
         /// <remarks>
         /// Creates Dice 4 which has the values between 1 and 4
         /// </remarks>
-        public static int DiceFour()
+        public static int DiceFour(int numberOfDiceRolls)
         {
-            return randomNumber.Next(1, 5);
+
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+
+                result += randomNumber.Next(1, 5);
+              
+            }
+            return result;
         }
 
         /// <summary>
@@ -51,9 +59,14 @@ namespace DraganTalamh.Extras
         /// <remarks>
         /// Creates Dice 6 which has the values between 1 and 6
         /// </remarks>
-        public static int DiceSix()
+        public static int DiceSix(int numberOfRolls)
         {
-            return randomNumber.Next(1, 7);
+            int result = 0;
+            for (int i = 0; i < numberOfRolls; i++)
+            {
+                result += randomNumber.Next(1, 7);
+            }
+            return result;
         }
 
         /// <summary>
@@ -125,5 +138,7 @@ namespace DraganTalamh.Extras
         {
             return randomNumber.Next(1, 21);
         }
+
+  
     }
 }
