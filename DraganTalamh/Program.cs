@@ -19,7 +19,7 @@ namespace DraganTalamh.Extras
             //
 
 
-            Console.WriteLine(DiceHandler.DiceFour(2));
+      
 
      
         }

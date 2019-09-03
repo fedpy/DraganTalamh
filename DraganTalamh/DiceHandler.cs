@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 // ======================================
 // = Author: Andrew English             =
-// = Date:     2/09/2019                =
+// = Date:     3/09/2019                =
 // ======================================
 // = Description:                       =
-// = First iteration of the DT dice     =
-// =                                    =
+// = Second iteration of the DT dice    =
+// = Includes ability to roll same dice =
+// = twice                              =
 // ======================================
 
 namespace DraganTalamh.Extras
@@ -19,7 +20,9 @@ namespace DraganTalamh.Extras
     /// Random dice generator
     /// </summary>
     /// <remarks>
-    /// Simulates the roll of a dice using a random number generator
+    /// Simulates the roll of a dice using a random number generator.
+    /// Enables the ability to roll the same dice a number of times
+    /// and get the  sum.
     /// </remarks>
     public static class DiceHandler
     {
@@ -36,6 +39,8 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 4 which has the values between 1 and 4
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
         public static int DiceFour(int numberOfDiceRolls)
         {
@@ -58,11 +63,13 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 6 which has the values between 1 and 6
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceSix(int numberOfRolls)
+        public static int DiceSix(int numberOfDiceRolls)
         {
             int result = 0;
-            for (int i = 0; i < numberOfRolls; i++)
+            for (int i = 0; i < numberOfDiceRolls; i++)
             {
                 result += randomNumber.Next(1, 7);
             }
@@ -77,10 +84,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 8 which has the values between 1 and 8
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceEight()
+        public static int DiceEight(int numberOfDiceRolls)
         {
-            return randomNumber.Next(1, 9);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(1, 9);
+            }
+            return result;
         }
 
         /// <summary>
@@ -91,10 +105,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 10 which has the values between 1 and 10
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceTen()
+        public static int DiceTen(int numberOfDiceRolls )
         {
-            return randomNumber.Next(0, 11);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(0, 11);
+            }
+            return result;
         }
 
         /// <summary>
@@ -105,10 +126,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 100 which has the values between 0 and 100
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceOneHundred()
+        public static int DiceOneHundred(int numberOfDiceRolls)
         {
-            return randomNumber.Next(0, 101);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(0, 101);
+            }
+            return result;
         }
 
         /// <summary>
@@ -119,10 +147,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 12 which has the values between 1 and 12
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceTwelve()
+        public static int DiceTwelve(int numberOfDiceRolls)
         {
-            return randomNumber.Next(1, 13);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(1, 13);
+            }
+            return result;
         }
 
         /// <summary>
@@ -133,10 +168,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 20 which has the values between 1 and 20
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceTwenty()
+        public static int DiceTwenty(int numberOfRolls)
         {
-            return randomNumber.Next(1, 21);
+            int result = 0;
+            for (int i = 0; i < numberOfRolls; i++)
+            {
+                result += randomNumber.Next(1, 21);
+            }
+            return result;
         }
 
   
