@@ -11,6 +11,7 @@ Dear Contributors, please read the following documents before commencing develop
 - [Git Recipes](https://github.com/fedpy/DraganTalamh/blob/master/docs/GIT_RECIPES.md) is a handy reference of Git commands
 
 ## Announcements
+- 03 Sep 2019 - UML Diagram has been created! You can download it [here](https://github.com/fedpy/DraganTalamh/blob/master/docs/Dragan-Talamh-UML.drawio)
 - 22 Aug 2019 - Dragan Talamh is in posession of dragantalamh.ie domain name
 - 16 Aug 2019 - Dragan Talamh project has been launched!
 
@@ -19,13 +20,13 @@ Learn more about [latest improvements](CHANGELOG.md).
 
 ### TODO
 :soon: **Not started** tasks :grin:
-- [ ] Develop Web Scrapper
-- [ ] Design User Interface(s)
-- [ ] Design UML diagrams
 - [ ] Define project Milestones
 - [ ] Define development Sprints
 
 :on: Tasks **under progress** :blush:
+- [ ] Design UML diagrams
+- [ ] Develop Web Scrapper
+- [ ] Design User Interface(s)
 - [ ] Choose appropriate Scrum tool
 
 :end: **Completed** Tasks :smile_cat:!
