@@ -15,6 +15,13 @@ We are using Git as our Version Control System. Basic knowledge and understandin
 
 We have created an awesome [Git Recipes](https://github.com/fedpy/DraganTalamh/blob/master/docs/GIT_RECIPES.md) document where you can find all the basic Git commands to get you started in no time!
 
+## Software Design
+Software design is a cornerstone of any successful program. We have invested a considerable amount of time designing our application. However, the design should only serve as a guidelines or direction post to navigate through the void of the application. We decided to make use of the UML format for our design as we deemed it to be most easily understood by our team.
+
+**Please notice that our UML diagram is a live document and should be referred to regularly.**
+
+In order to access the content of our [UML design file](https://github.com/fedpy/DraganTalamh/blob/master/docs/Dragan-Talamh-UML.drawio), one must use fantastic application [draw.io](https://www.draw.io).
+
 ## Code Conventions
 Code Conventions are important to Software Developers for serveral reasons. Code Conventions improve the quality and readibility of the code. The majority of code is maintaned by a team of people. We expect our contributors to adhere to the following Code Conventions at all times.
 
