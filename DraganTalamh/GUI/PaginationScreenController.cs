@@ -16,5 +16,15 @@ namespace DraganTalamh.GUI
         {
             InitializeComponent();
         }
+
+        private void OnMainScreenButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnRaceScreenButtonClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }

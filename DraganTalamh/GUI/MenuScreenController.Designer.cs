@@ -28,10 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.buttonBack = new System.Windows.Forms.Button();
+            this.buttonCancel = new System.Windows.Forms.Button();
+            this.buttonNext = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.Location = new System.Drawing.Point(87, 37);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(75, 23);
+            this.buttonBack.TabIndex = 0;
+            this.buttonBack.Text = "Back";
+            this.buttonBack.UseVisualStyleBackColor = true;
+            // 
+            // buttonCancel
+            // 
+            this.buttonCancel.Location = new System.Drawing.Point(249, 37);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.TabIndex = 1;
+            this.buttonCancel.Text = "Cancel";
+            this.buttonCancel.UseVisualStyleBackColor = true;
+            // 
+            // buttonNext
+            // 
+            this.buttonNext.Location = new System.Drawing.Point(408, 37);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(75, 23);
+            this.buttonNext.TabIndex = 2;
+            this.buttonNext.Text = "Next";
+            this.buttonNext.UseVisualStyleBackColor = true;
+            // 
+            // MenuScreenController
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.buttonNext);
+            this.Controls.Add(this.buttonCancel);
+            this.Controls.Add(this.buttonBack);
+            this.Name = "MenuScreenController";
+            this.Size = new System.Drawing.Size(556, 94);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonBack;
+        private System.Windows.Forms.Button buttonCancel;
+        private System.Windows.Forms.Button buttonNext;
     }
 }
