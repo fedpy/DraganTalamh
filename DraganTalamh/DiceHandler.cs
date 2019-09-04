@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 // ======================================
 // = Author: Andrew English             =
-// = Date:     3/09/2019                =
+// = Date:     4/09/2019                =
 // ======================================
 // = Description:                       =
-// = Second iteration of the DT dice    =
+// = Third iteration of the DT dice     =
 // = Includes ability to roll same dice =
-// = twice                              =
+// = twice and roll mulltiple die       =
 // ======================================
 
 namespace DraganTalamh.Extras
@@ -179,6 +179,67 @@ namespace DraganTalamh.Extras
                 result += randomNumber.Next(1, 21);
             }
             return result;
+        }
+
+        /// <summary>
+        /// Random multiple die roller
+        /// </summary>
+        /// <returns>
+        /// An integer number between 2 and 24
+        /// </returns>
+        /// <remarks>
+        /// Rolls multiple die ranging in values between 2 and 24
+        /// Enables the ability to roll different die a number of times
+        /// and get the sum.
+        /// </remarks>
+        public static int RollDifferentDice(int firstDice, int secondDice)
+        {
+            int result = 0;
+            if (firstDice == 4)
+            {
+                result += DiceHandler.DiceFour(1);
+
+            }
+            else if (firstDice == 6)
+            {
+                result += DiceHandler.DiceSix(1);
+            }
+            else if (firstDice == 8)
+            {
+                result += DiceHandler.DiceEight(1);
+            }
+            else if (firstDice == 10)
+            {
+                result += DiceHandler.DiceTen(1);
+            }
+            
+
+            if (secondDice == 4)
+            {
+                result += DiceFour(1);
+            }
+            else if (secondDice == 4)
+            {
+                result += DiceHandler.DiceFour(1);
+            }
+            else if(secondDice == 6)
+            {
+                result += DiceHandler.DiceSix(1);
+            }
+            else if (secondDice == 8)
+            {
+                result += DiceHandler.DiceEight(1);
+            }
+            else if (secondDice == 10)
+            {
+                result += DiceHandler.DiceTen(1);
+            }
+            else if (secondDice == 12)
+            {
+                result += DiceHandler.DiceTwelve(1);
+            }
+            return result;
+           
         }
 
   
