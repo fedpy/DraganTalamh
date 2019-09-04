@@ -51,9 +51,75 @@
     <Compile Include="Character\CharacterClass.cs" />
     <Compile Include="Character\CharacterRace.cs" />
     <Compile Include="DiceHandler.cs" />
+    <Compile Include="GUI\AbilityPointsScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\AbilityPointsScreenController.Designer.cs">
+      <DependentUpon>AbilityPointsScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BackgroundScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\BackgroundScreenController.Designer.cs">
+      <DependentUpon>BackgroundScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ClassAbilitiesScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ClassAbilitiesScreenController.Designer.cs">
+      <DependentUpon>ClassAbilitiesScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ClassScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ClassScreenController.Designer.cs">
+      <DependentUpon>ClassScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LayoutScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\LayoutScreenController.Designer.cs">
+      <DependentUpon>LayoutScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MenuScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\MenuScreenController.Designer.cs">
+      <DependentUpon>MenuScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PaginationScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\PaginationScreenController.Designer.cs">
+      <DependentUpon>PaginationScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\StartScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\StartScreenController.Designer.cs">
+      <DependentUpon>StartScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\OverviewScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\OverviewScreenController.Designer.cs">
+      <DependentUpon>OverviewScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RaceScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\RaceScreenController.Designer.cs">
+      <DependentUpon>RaceScreenController.cs</DependentUpon>
+    </Compile>
     <Compile Include="Handlers\DiceHandler.cs" />
     <Compile Include="Handlers\PrintableHandler.cs" />
     <Compile Include="Handlers\ScreenHandler.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Printable\Printable.cs" />
     <Compile Include="Printable\PrintableJSON.cs" />
     <Compile Include="Printable\PrintablePDF.cs" />
@@ -81,8 +147,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GUI\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
