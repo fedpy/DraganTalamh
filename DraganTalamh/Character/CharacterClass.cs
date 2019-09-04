@@ -16,7 +16,7 @@ namespace DraganTalamh.Character
         /// <summary>
         /// 
         /// </summary>
-        private string path;
+        private string imagePath;
 
         /// <summary>
         /// 
@@ -27,5 +27,10 @@ namespace DraganTalamh.Character
         /// 
         /// </summary>
         private short hitDice;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private List<ClassAbilities> classAbilities;
     }
 }

@@ -6,7 +6,35 @@ using System.Threading.Tasks;
 
 namespace DraganTalamh.Printable
 {
-    class Printable
+    public abstract class Printable
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        private string path;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void open()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void print()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void download()
+        {
+
+        }
     }
 }

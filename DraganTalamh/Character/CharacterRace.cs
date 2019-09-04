@@ -8,8 +8,29 @@ namespace DraganTalamh.Character
 {
     class CharacterRace
     {
+        /// <summary>
+        /// 
+        /// </summary>
         private string name;
-        private string path;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private string imagePath;
+
+        /// <summary>
+        /// 
+        /// </summary>
         private string description;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private List<string> racialAbilities;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private List<short> racialTraits;
     }
 }

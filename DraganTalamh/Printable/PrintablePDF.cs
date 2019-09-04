@@ -8,5 +8,9 @@ namespace DraganTalamh.Printable
 {
     class PrintablePDF : Printable
     {
+        public PrintablePDF(string filePath)
+        {
+            // PrintablePDF default constructor
+        }
     }
 }

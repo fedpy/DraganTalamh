@@ -8,7 +8,14 @@ namespace DraganTalamh.Character
 {
     class ClassAbilities
     {
+        /// <summary>
+        /// 
+        /// </summary>
         private string name;
+
+        /// <summary>
+        /// 
+        /// </summary>
         private string description;
     }
 }

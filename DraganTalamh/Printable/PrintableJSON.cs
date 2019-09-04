@@ -8,5 +8,9 @@ namespace DraganTalamh.Printable
 {
     class PrintableJSON : Printable
     {
+        public PrintableJSON(string filePath)
+        {
+            // PrintableJSON default constructor
+        }
     }
 }
