@@ -17,11 +17,6 @@ namespace DraganTalamh.Extras
             //
             // Please keep this space clear, thank you! <fedpy>
             //
-
-
-           
-
-     
         }
     }
 }
