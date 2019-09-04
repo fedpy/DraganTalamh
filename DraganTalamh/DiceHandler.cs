@@ -212,7 +212,11 @@ namespace DraganTalamh.Extras
             {
                 result += DiceHandler.DiceTen(1);
             }
-            
+            else if (firstDice == 12)
+            {
+                result += DiceHandler.DiceTwelve(1);
+            }
+
 
             if (secondDice == 4)
             {
