@@ -46,7 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character\Character.cs" />
+    <Compile Include="Character\ClassAbilities.cs" />
+    <Compile Include="Character\CharacterClass.cs" />
+    <Compile Include="Character\CharacterRace.cs" />
     <Compile Include="DiceHandler.cs" />
+    <Compile Include="Handlers\DiceHandler.cs" />
+    <Compile Include="Handlers\PrintableHandler.cs" />
+    <Compile Include="Handlers\ScreenHandler.cs" />
+    <Compile Include="Printable\Printable.cs" />
+    <Compile Include="Printable\PrintableJSON.cs" />
+    <Compile Include="Printable\PrintablePDF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -70,6 +80,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GUI\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

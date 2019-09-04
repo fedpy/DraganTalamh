@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 // ======================================
 // = Author: Andrew English             =
-// = Date:     2/09/2019                =
+// = Date:     4/09/2019                =
 // ======================================
 // = Description:                       =
-// = First iteration of the DT dice     =
-// =                                    =
+// = Third iteration of the DT dice     =
+// = Includes ability to roll same dice =
+// = twice and roll mulltiple die       =
 // ======================================
 
 namespace DraganTalamh.Extras
@@ -19,7 +20,9 @@ namespace DraganTalamh.Extras
     /// Random dice generator
     /// </summary>
     /// <remarks>
-    /// Simulates the roll of a dice using a random number generator
+    /// Simulates the roll of a dice using a random number generator.
+    /// Enables the ability to roll the same dice a number of times
+    /// and get the  sum.
     /// </remarks>
     public static class DiceHandler
     {
@@ -36,10 +39,20 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 4 which has the values between 1 and 4
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceFour()
+        public static int DiceFour(int numberOfDiceRolls)
         {
-            return randomNumber.Next(1, 5);
+
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+
+                result += randomNumber.Next(1, 5);
+              
+            }
+            return result;
         }
 
         /// <summary>
@@ -50,10 +63,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 6 which has the values between 1 and 6
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceSix()
+        public static int DiceSix(int numberOfDiceRolls)
         {
-            return randomNumber.Next(1, 7);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(1, 7);
+            }
+            return result;
         }
 
         /// <summary>
@@ -64,10 +84,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 8 which has the values between 1 and 8
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceEight()
+        public static int DiceEight(int numberOfDiceRolls)
         {
-            return randomNumber.Next(1, 9);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(1, 9);
+            }
+            return result;
         }
 
         /// <summary>
@@ -78,10 +105,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 10 which has the values between 1 and 10
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceTen()
+        public static int DiceTen(int numberOfDiceRolls )
         {
-            return randomNumber.Next(0, 11);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(0, 11);
+            }
+            return result;
         }
 
         /// <summary>
@@ -92,10 +126,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 100 which has the values between 0 and 100
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceOneHundred()
+        public static int DiceOneHundred(int numberOfDiceRolls)
         {
-            return randomNumber.Next(0, 101);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(0, 101);
+            }
+            return result;
         }
 
         /// <summary>
@@ -106,10 +147,17 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 12 which has the values between 1 and 12
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceTwelve()
+        public static int DiceTwelve(int numberOfDiceRolls)
         {
-            return randomNumber.Next(1, 13);
+            int result = 0;
+            for (int i = 0; i < numberOfDiceRolls; i++)
+            {
+                result += randomNumber.Next(1, 13);
+            }
+            return result;
         }
 
         /// <summary>
@@ -120,10 +168,84 @@ namespace DraganTalamh.Extras
         /// </returns>
         /// <remarks>
         /// Creates Dice 20 which has the values between 1 and 20
+        /// Enables the ability to roll the same dice a number of times
+        /// and get the sum.
         /// </remarks>
-        public static int DiceTwenty()
+        public static int DiceTwenty(int numberOfRolls)
         {
-            return randomNumber.Next(1, 21);
+            int result = 0;
+            for (int i = 0; i < numberOfRolls; i++)
+            {
+                result += randomNumber.Next(1, 21);
+            }
+            return result;
         }
+
+        /// <summary>
+        /// Random multiple die roller
+        /// </summary>
+        /// <returns>
+        /// An integer number between 2 and 24
+        /// </returns>
+        /// <remarks>
+        /// Rolls multiple die ranging in values between 2 and 24
+        /// Enables the ability to roll different die a number of times
+        /// and get the sum.
+        /// </remarks>
+        public static int RollDifferentDice(int firstDice, int secondDice)
+        {
+            int result = 0;
+            if (firstDice == 4)
+            {
+                result += DiceHandler.DiceFour(1);
+
+            }
+            else if (firstDice == 6)
+            {
+                result += DiceHandler.DiceSix(1);
+            }
+            else if (firstDice == 8)
+            {
+                result += DiceHandler.DiceEight(1);
+            }
+            else if (firstDice == 10)
+            {
+                result += DiceHandler.DiceTen(1);
+            }
+            else if (firstDice == 12)
+            {
+                result += DiceHandler.DiceTwelve(1);
+            }
+
+
+            if (secondDice == 4)
+            {
+                result += DiceFour(1);
+            }
+            else if (secondDice == 4)
+            {
+                result += DiceHandler.DiceFour(1);
+            }
+            else if(secondDice == 6)
+            {
+                result += DiceHandler.DiceSix(1);
+            }
+            else if (secondDice == 8)
+            {
+                result += DiceHandler.DiceEight(1);
+            }
+            else if (secondDice == 10)
+            {
+                result += DiceHandler.DiceTen(1);
+            }
+            else if (secondDice == 12)
+            {
+                result += DiceHandler.DiceTwelve(1);
+            }
+            return result;
+           
+        }
+
+  
     }
 }
