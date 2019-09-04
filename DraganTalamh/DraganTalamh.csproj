@@ -50,7 +50,6 @@
     <Compile Include="Character\ClassAbilities.cs" />
     <Compile Include="Character\CharacterClass.cs" />
     <Compile Include="Character\CharacterRace.cs" />
-    <Compile Include="DiceHandler.cs" />
     <Compile Include="GUI\AbilityPointsScreenController.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -125,11 +124,32 @@
     <Compile Include="Printable\PrintablePDF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\AbilityPointsScreenController.resx">
+      <DependentUpon>AbilityPointsScreenController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\BackgroundScreenController.resx">
+      <DependentUpon>BackgroundScreenController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ClassAbilitiesScreenController.resx">
+      <DependentUpon>ClassAbilitiesScreenController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ClassScreenController.resx">
+      <DependentUpon>ClassScreenController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LayoutScreenController.resx">
+      <DependentUpon>LayoutScreenController.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\MenuScreenController.resx">
       <DependentUpon>MenuScreenController.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\OverviewScreenController.resx">
+      <DependentUpon>OverviewScreenController.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\PaginationScreenController.resx">
       <DependentUpon>PaginationScreenController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RaceScreenController.resx">
+      <DependentUpon>RaceScreenController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\StartScreenController.resx">
       <DependentUpon>StartScreenController.cs</DependentUpon>

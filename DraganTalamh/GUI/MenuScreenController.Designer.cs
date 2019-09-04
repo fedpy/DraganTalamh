@@ -35,7 +35,7 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.Location = new System.Drawing.Point(87, 37);
+            this.buttonBack.Location = new System.Drawing.Point(85, 28);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(75, 23);
             this.buttonBack.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(249, 37);
+            this.buttonCancel.Location = new System.Drawing.Point(247, 28);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
@@ -53,7 +53,7 @@
             // 
             // buttonNext
             // 
-            this.buttonNext.Location = new System.Drawing.Point(408, 37);
+            this.buttonNext.Location = new System.Drawing.Point(409, 28);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(75, 23);
             this.buttonNext.TabIndex = 2;
@@ -64,12 +64,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonBack);
             this.Name = "MenuScreenController";
-            this.Size = new System.Drawing.Size(556, 94);
+            this.Size = new System.Drawing.Size(545, 80);
             this.ResumeLayout(false);
 
         }
