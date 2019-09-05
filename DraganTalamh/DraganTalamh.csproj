@@ -80,17 +80,17 @@
     <Compile Include="GUI\LayoutScreenController.Designer.cs">
       <DependentUpon>LayoutScreenController.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\MenuScreenController.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\MenuScreenController.Designer.cs">
-      <DependentUpon>MenuScreenController.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\PaginationScreenController.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI\PaginationScreenController.Designer.cs">
       <DependentUpon>PaginationScreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MenuScreenController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\MenuScreenController.Designer.cs">
+      <DependentUpon>MenuScreenController.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\StartScreenController.cs">
       <SubType>UserControl</SubType>
@@ -139,14 +139,14 @@
     <EmbeddedResource Include="GUI\LayoutScreenController.resx">
       <DependentUpon>LayoutScreenController.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\MenuScreenController.resx">
-      <DependentUpon>MenuScreenController.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\PaginationScreenController.resx">
+      <DependentUpon>PaginationScreenController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\OverviewScreenController.resx">
       <DependentUpon>OverviewScreenController.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\PaginationScreenController.resx">
-      <DependentUpon>PaginationScreenController.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\MenuScreenController.resx">
+      <DependentUpon>MenuScreenController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\RaceScreenController.resx">
       <DependentUpon>RaceScreenController.cs</DependentUpon>

@@ -24,11 +24,11 @@ namespace DraganTalamh
 
             //Creating the user control objects
             StartScreenController startScreen = new StartScreenController();
-            PaginationScreenController paginationScreen = new PaginationScreenController();
+            MenuScreenController menuScreen = new MenuScreenController();
             
 
             //Adding the control objects to the left and right panels
-            MainForm.GetInstance().LeftPanel.Controls.Add(paginationScreen);
+            MainForm.GetInstance().LeftPanel.Controls.Add(menuScreen);
             MainForm.GetInstance().RightPanel.Controls.Add(startScreen);
             
 
