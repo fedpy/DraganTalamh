@@ -28,56 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonBack = new System.Windows.Forms.Button();
-            this.buttonCancel = new System.Windows.Forms.Button();
-            this.buttonNext = new System.Windows.Forms.Button();
+            this.buttonMainScreen = new System.Windows.Forms.Button();
+            this.buttonRaceScreen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // buttonBack
+            // buttonMainScreen
             // 
-            this.buttonBack.Location = new System.Drawing.Point(85, 28);
-            this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(75, 23);
-            this.buttonBack.TabIndex = 0;
-            this.buttonBack.Text = "Back";
-            this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonMainScreen.Location = new System.Drawing.Point(3, 16);
+            this.buttonMainScreen.Name = "buttonMainScreen";
+            this.buttonMainScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonMainScreen.TabIndex = 0;
+            this.buttonMainScreen.Text = "Main Screen";
+            this.buttonMainScreen.UseVisualStyleBackColor = true;
+            this.buttonMainScreen.Click += new System.EventHandler(this.OnMainScreenButtonClick);
             // 
-            // buttonCancel
+            // buttonRaceScreen
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(247, 28);
-            this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
-            this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
-            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonRaceScreen.Location = new System.Drawing.Point(3, 73);
+            this.buttonRaceScreen.Name = "buttonRaceScreen";
+            this.buttonRaceScreen.Size = new System.Drawing.Size(175, 53);
+            this.buttonRaceScreen.TabIndex = 1;
+            this.buttonRaceScreen.Text = "Character Race";
+            this.buttonRaceScreen.UseVisualStyleBackColor = true;
+            this.buttonRaceScreen.Click += new System.EventHandler(this.OnRaceScreenButtonClick);
             // 
-            // buttonNext
-            // 
-            this.buttonNext.Location = new System.Drawing.Point(409, 28);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(75, 23);
-            this.buttonNext.TabIndex = 2;
-            this.buttonNext.Text = "Next";
-            this.buttonNext.UseVisualStyleBackColor = true;
-            // 
-            // MenuScreenController
+            // PaginationScreenController
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.Controls.Add(this.buttonNext);
-            this.Controls.Add(this.buttonCancel);
-            this.Controls.Add(this.buttonBack);
-            this.Name = "MenuScreenController";
-            this.Size = new System.Drawing.Size(545, 80);
+            this.Controls.Add(this.buttonRaceScreen);
+            this.Controls.Add(this.buttonMainScreen);
+            this.Name = "PaginationScreenController";
+            this.Size = new System.Drawing.Size(181, 508);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button buttonBack;
-        private System.Windows.Forms.Button buttonCancel;
-        private System.Windows.Forms.Button buttonNext;
+        private System.Windows.Forms.Button buttonMainScreen;
+        private System.Windows.Forms.Button buttonRaceScreen;
     }
 }
