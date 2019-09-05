@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DraganTalamh.GUI;
+using DraganTalamh.Handlers;
 
 namespace DraganTalamh
 {
@@ -21,16 +21,8 @@ namespace DraganTalamh
             // Set the default rendering engine
             Application.SetCompatibleTextRenderingDefault(false);
 
-
-            //Creating the user control objects
-            StartScreenController startScreen = new StartScreenController();
-            PaginationScreenController paginationScreen = new PaginationScreenController();
-            
-
-            //Adding the control objects to the left and right panels
-            MainForm.GetInstance().LeftPanel.Controls.Add(paginationScreen);
-            MainForm.GetInstance().RightPanel.Controls.Add(startScreen);
-            
+            // Load the Start Screen and Menu Screen
+            ScreenHandler.ShowStartScreen();
 
             // Execute the application
             Application.Run(MainForm.GetInstance());

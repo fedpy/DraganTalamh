@@ -4,19 +4,58 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DraganTalamh.GUI;
 
 namespace DraganTalamh.Handlers
 {
-    class ScreenHandler
+    static public class ScreenHandler
     {
         /// <summary>
         /// 
         /// </summary>
-        private UserControl currentScreen;
+        private static UserControl currentScreen { get; set; }
 
         /// <summary>
         /// 
         /// </summary>
-        private List<UserControl> screenHistory;
+        private static List<UserControl> screenHistory { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static void Cancel()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static void Back()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static void ShowStartScreen()
+        {
+            // Add Menu Screen to the Left Panel
+            PaginationScreenController paginationScreen = new PaginationScreenController();
+            MainForm.GetInstance().LeftPanel.Controls.Add(paginationScreen);
+
+            // Add Start Screen to the Right Panel
+            StartScreenController startScreen = new StartScreenController();
+            MainForm.GetInstance().RightPanel.Controls.Add(startScreen);
+
+            // Update Current Screen
+            currentScreen = startScreen;
+
+            // Update Screen History
+            List<UserControl> currentScrenHistory = new List<UserControl>();
+            currentScrenHistory.Add(startScreen);
+            screenHistory = currentScrenHistory;
+        }
     }
 }
