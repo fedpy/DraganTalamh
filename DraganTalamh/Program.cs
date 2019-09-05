@@ -26,6 +26,16 @@ namespace DraganTalamh
             // TODO: Right Panel and the appropriate screen
             // TODO: Bottom Panel should not be visible here
 
+            //Creating the user control objects
+            StartScreenController startScreen = new StartScreenController();
+            PaginationScreenController paginationScreen = new PaginationScreenController();
+            
+
+            //Adding the control objects to the left and right panels
+            MainForm.GetInstance().LeftPanel.Controls.Add(paginationScreen);
+            MainForm.GetInstance().RightPanel.Controls.Add(startScreen);
+            
+
             // Execute the application
             Application.Run(MainForm.GetInstance());
         }
