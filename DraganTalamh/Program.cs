@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DraganTalamh.GUI;
 
-namespace DraganTalamh.Extras
+namespace DraganTalamh
 {
     static class Program
     {
@@ -15,11 +15,19 @@ namespace DraganTalamh.Extras
         [STAThread]
         static void Main()
         {
-            //
-            // Please keep this space clear, thank you! <fedpy>
-            //
-          
+            // Enable visual styles for the application
+            Application.EnableVisualStyles();
 
+            // Set the default rendering engine
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            // TODO: Display the appropriate panels here
+            // TODO: Left Panel and the appropriate screen
+            // TODO: Right Panel and the appropriate screen
+            // TODO: Bottom Panel should not be visible here
+
+            // Execute the application
+            Application.Run(MainForm.GetInstance());
         }
     }
 }

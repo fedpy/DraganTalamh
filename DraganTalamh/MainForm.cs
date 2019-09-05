@@ -23,7 +23,6 @@ namespace DraganTalamh
             InitializeComponent();
         }
 
-
         /// <summary>
         /// This method checks if there is already a MainForm object created and returns its instance.
         /// If there isn't any, then it creates it and returns it.
