@@ -42,8 +42,8 @@ namespace DraganTalamh.Handlers
         public static void ShowStartScreen()
         {
             // Add Menu Screen to the Left Panel
-            PaginationScreenController paginationScreen = new PaginationScreenController();
-            MainForm.GetInstance().LeftPanel.Controls.Add(paginationScreen);
+            MenuScreenController menuScreen = new MenuScreenController();
+            MainForm.GetInstance().LeftPanel.Controls.Add(menuScreen);
 
             // Add Start Screen to the Right Panel
             StartScreenController startScreen = new StartScreenController();
