@@ -21,10 +21,6 @@ namespace DraganTalamh
             // Set the default rendering engine
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // TODO: Display the appropriate panels here
-            // TODO: Left Panel and the appropriate screen
-            // TODO: Right Panel and the appropriate screen
-            // TODO: Bottom Panel should not be visible here
 
             //Creating the user control objects
             StartScreenController startScreen = new StartScreenController();
