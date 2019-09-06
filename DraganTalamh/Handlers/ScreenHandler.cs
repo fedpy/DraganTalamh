@@ -27,6 +27,7 @@ namespace DraganTalamh.Handlers
         {
             //If user hits Cancel button, the start up screen is going to be loaded
             //ScreenHandler properties will be reset
+            MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
             ShowStartScreen();
         }
 
