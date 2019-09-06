@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DraganTalamh.Handlers;
 
 namespace DraganTalamh.GUI
 {
@@ -15,6 +16,11 @@ namespace DraganTalamh.GUI
         public StartScreenController()
         {
             InitializeComponent();
+        }
+
+        private void OnCreateNewCharacterButtonClick(object sender, EventArgs e)
+        {
+            ScreenHandler.ShowRaceScreen();
         }
     }
 }

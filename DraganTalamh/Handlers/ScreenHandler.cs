@@ -35,13 +35,18 @@ namespace DraganTalamh.Handlers
         {
            //Getting the previous screen's index from the list of screens
             int previousScreenIndex = screenHistory.IndexOf(currentScreen)-1;
+
             //Checking if the index is not out of range
             if (previousScreenIndex>=0){
-                //setting the currentScreen property to the previously viewed screen
-                currentScreen = screenHistory.ElementAt(previousScreenIndex);
+
+                
+
                 //Setting the RightPanel to display the previous screen
                 MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
                 MainForm.GetInstance().RightPanel.Controls.Add(screenHistory.ElementAt(previousScreenIndex));
+
+                //setting the currentScreen property to the previously viewed screen
+                currentScreen = screenHistory.ElementAt(previousScreenIndex);
             }
             
         }
@@ -66,6 +71,26 @@ namespace DraganTalamh.Handlers
             List<UserControl> currentScrenHistory = new List<UserControl>();
             currentScrenHistory.Add(startScreen);
             screenHistory = currentScrenHistory;
+        }
+
+        public static void ShowRaceScreen()
+        {
+            //Displaying the BottomPanel
+            PaginationScreenController paginationScreen = new PaginationScreenController();
+            MainForm.GetInstance().BottomPanel.Controls.Add(paginationScreen);
+
+            //Creating new RaceScreenCotroller object - a new screen for selecting a race
+            RaceScreenController raceScreen = new RaceScreenController();
+
+            //Removing the current screen from the main form's RightPanel and inserting the raceScreen on its place
+            MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
+            MainForm.GetInstance().RightPanel.Controls.Add(raceScreen);
+
+            //Setting the currentScreen to point to the raceScreen and add raceScreen to the screenHistory list
+            currentScreen = raceScreen;
+            screenHistory.Add(raceScreen);
+
+           
         }
     }
 }

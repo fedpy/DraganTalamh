@@ -42,6 +42,7 @@
             this.buttonCreateNewCharacter.TabIndex = 0;
             this.buttonCreateNewCharacter.Text = "Create a new character";
             this.buttonCreateNewCharacter.UseVisualStyleBackColor = true;
+            this.buttonCreateNewCharacter.Click += new System.EventHandler(this.OnCreateNewCharacterButtonClick);
             // 
             // buttonLoadCharacter
             // 

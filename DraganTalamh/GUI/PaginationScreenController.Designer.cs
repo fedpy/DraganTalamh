@@ -41,6 +41,7 @@
             this.buttonBack.TabIndex = 0;
             this.buttonBack.Text = "Back";
             this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Click += new System.EventHandler(this.OnBackButtonClick);
             // 
             // buttonCancel
             // 
@@ -60,7 +61,7 @@
             this.buttonNext.Text = "Next";
             this.buttonNext.UseVisualStyleBackColor = true;
             // 
-            // MenuScreenController
+            // PaginationScreenController
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,7 +69,7 @@
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonBack);
-            this.Name = "MenuScreenController";
+            this.Name = "PaginationScreenController";
             this.Size = new System.Drawing.Size(545, 80);
             this.ResumeLayout(false);
 
