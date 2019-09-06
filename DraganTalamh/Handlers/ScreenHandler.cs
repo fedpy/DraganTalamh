@@ -33,7 +33,17 @@ namespace DraganTalamh.Handlers
         /// </summary>
         public static void Back()
         {
-
+           //Getting the previous screen's index from the list of screens
+            int previousScreenIndex = screenHistory.IndexOf(currentScreen)-1;
+            //Checking if the index is not out of range
+            if (previousScreenIndex>=0){
+                //setting the currentScreen property to the previously viewed screen
+                currentScreen = screenHistory.ElementAt(previousScreenIndex);
+                //Setting the RightPanel to display the previous screen
+                MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
+                MainForm.GetInstance().RightPanel.Controls.Add(screenHistory.ElementAt(previousScreenIndex));
+            }
+            
         }
 
         /// <summary>
