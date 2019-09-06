@@ -22,5 +22,10 @@ namespace DraganTalamh.GUI
         {
             ScreenHandler.Back();
         }
+
+        private void OnCancelButtonClick(object sender, EventArgs e)
+        {
+            ScreenHandler.Cancel();
+        }
     }
 }
