@@ -65,6 +65,12 @@ namespace DraganTalamh.Handlers
             StartScreenController startScreen = new StartScreenController();
             MainForm.GetInstance().RightPanel.Controls.Add(startScreen);
 
+            //Removes the Bottom Screen 
+            if (MainForm.GetInstance().BottomPanel.HasChildren)
+            {
+                MainForm.GetInstance().BottomPanel.Controls.RemoveAt(0);
+            }
+            
             // Update Current Screen
             currentScreen = startScreen;
 
