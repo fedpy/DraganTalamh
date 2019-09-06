@@ -28,5 +28,35 @@ namespace DraganTalamh.GUI
         {
             ScreenHandler.ShowRaceScreen();
         }
+
+        private void OnClassScreenButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnAbilityPointsScreenButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnClassAbilitiesButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnLayoutScreenButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnBackgroundScreenButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnOverviewScreenButtonClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
