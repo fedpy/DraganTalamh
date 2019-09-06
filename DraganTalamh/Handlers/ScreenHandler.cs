@@ -25,7 +25,9 @@ namespace DraganTalamh.Handlers
         /// </summary>
         public static void Cancel()
         {
-
+            //If user hits Cancel button, the start up screen is going to be loaded
+            //ScreenHandler properties will be reset
+            ShowStartScreen();
         }
 
         /// <summary>
@@ -38,8 +40,6 @@ namespace DraganTalamh.Handlers
 
             //Checking if the index is not out of range
             if (previousScreenIndex>=0){
-
-                
 
                 //Setting the RightPanel to display the previous screen
                 MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
