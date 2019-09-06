@@ -40,9 +40,9 @@
             // 
             // buttonMainScreen
             // 
-            this.buttonMainScreen.Location = new System.Drawing.Point(3, 16);
+            this.buttonMainScreen.Location = new System.Drawing.Point(3, 3);
             this.buttonMainScreen.Name = "buttonMainScreen";
-            this.buttonMainScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonMainScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonMainScreen.TabIndex = 0;
             this.buttonMainScreen.Text = "Main Screen";
             this.buttonMainScreen.UseVisualStyleBackColor = true;
@@ -50,9 +50,9 @@
             // 
             // buttonRaceScreen
             // 
-            this.buttonRaceScreen.Location = new System.Drawing.Point(3, 73);
+            this.buttonRaceScreen.Location = new System.Drawing.Point(3, 54);
             this.buttonRaceScreen.Name = "buttonRaceScreen";
-            this.buttonRaceScreen.Size = new System.Drawing.Size(175, 53);
+            this.buttonRaceScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonRaceScreen.TabIndex = 1;
             this.buttonRaceScreen.Text = "Character Race";
             this.buttonRaceScreen.UseVisualStyleBackColor = true;
@@ -60,9 +60,9 @@
             // 
             // buttonClassScreen
             // 
-            this.buttonClassScreen.Location = new System.Drawing.Point(4, 133);
+            this.buttonClassScreen.Location = new System.Drawing.Point(3, 105);
             this.buttonClassScreen.Name = "buttonClassScreen";
-            this.buttonClassScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonClassScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonClassScreen.TabIndex = 2;
             this.buttonClassScreen.Text = "Character Class";
             this.buttonClassScreen.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@
             // 
             // buttonAbilityPointsScreen
             // 
-            this.buttonAbilityPointsScreen.Location = new System.Drawing.Point(4, 191);
+            this.buttonAbilityPointsScreen.Location = new System.Drawing.Point(3, 156);
             this.buttonAbilityPointsScreen.Name = "buttonAbilityPointsScreen";
-            this.buttonAbilityPointsScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonAbilityPointsScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonAbilityPointsScreen.TabIndex = 3;
             this.buttonAbilityPointsScreen.Text = "Ability Points";
             this.buttonAbilityPointsScreen.UseVisualStyleBackColor = true;
@@ -80,9 +80,9 @@
             // 
             // buttonClassAbilitiesScreen
             // 
-            this.buttonClassAbilitiesScreen.Location = new System.Drawing.Point(4, 249);
+            this.buttonClassAbilitiesScreen.Location = new System.Drawing.Point(3, 207);
             this.buttonClassAbilitiesScreen.Name = "buttonClassAbilitiesScreen";
-            this.buttonClassAbilitiesScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonClassAbilitiesScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonClassAbilitiesScreen.TabIndex = 4;
             this.buttonClassAbilitiesScreen.Text = "Class Abilities";
             this.buttonClassAbilitiesScreen.UseVisualStyleBackColor = true;
@@ -90,9 +90,9 @@
             // 
             // buttonLayoutScreen
             // 
-            this.buttonLayoutScreen.Location = new System.Drawing.Point(4, 307);
+            this.buttonLayoutScreen.Location = new System.Drawing.Point(3, 258);
             this.buttonLayoutScreen.Name = "buttonLayoutScreen";
-            this.buttonLayoutScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonLayoutScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonLayoutScreen.TabIndex = 5;
             this.buttonLayoutScreen.Text = "Layout";
             this.buttonLayoutScreen.UseVisualStyleBackColor = true;
@@ -100,9 +100,9 @@
             // 
             // buttonBackgroundScreen
             // 
-            this.buttonBackgroundScreen.Location = new System.Drawing.Point(4, 365);
+            this.buttonBackgroundScreen.Location = new System.Drawing.Point(3, 309);
             this.buttonBackgroundScreen.Name = "buttonBackgroundScreen";
-            this.buttonBackgroundScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonBackgroundScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonBackgroundScreen.TabIndex = 6;
             this.buttonBackgroundScreen.Text = "Background";
             this.buttonBackgroundScreen.UseVisualStyleBackColor = true;
@@ -110,9 +110,9 @@
             // 
             // buttonOverviewScreen
             // 
-            this.buttonOverviewScreen.Location = new System.Drawing.Point(4, 423);
+            this.buttonOverviewScreen.Location = new System.Drawing.Point(3, 360);
             this.buttonOverviewScreen.Name = "buttonOverviewScreen";
-            this.buttonOverviewScreen.Size = new System.Drawing.Size(175, 51);
+            this.buttonOverviewScreen.Size = new System.Drawing.Size(175, 45);
             this.buttonOverviewScreen.TabIndex = 7;
             this.buttonOverviewScreen.Text = "Overview";
             this.buttonOverviewScreen.UseVisualStyleBackColor = true;

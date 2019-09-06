@@ -40,7 +40,7 @@ namespace DraganTalamh.Handlers
             int previousScreenIndex = screenHistory.IndexOf(currentScreen)-1;
 
             //Checking if the index is not out of range
-            if (previousScreenIndex>=0){
+            if (previousScreenIndex>0){
 
                 //Setting the RightPanel to display the previous screen
                 MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
@@ -48,6 +48,10 @@ namespace DraganTalamh.Handlers
 
                 //setting the currentScreen property to the previously viewed screen
                 currentScreen = screenHistory.ElementAt(previousScreenIndex);
+            }else if (previousScreenIndex == 0)
+            {
+                //Calling Cancel() method to make sure the Bottom panel is not visible on the starting page of the app
+                Cancel();
             }
             
         }
