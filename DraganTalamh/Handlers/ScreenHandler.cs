@@ -48,6 +48,7 @@ namespace DraganTalamh.Handlers
 
                 //setting the currentScreen property to the previously viewed screen
                 currentScreen = screenHistory.ElementAt(previousScreenIndex);
+                
             }else if (previousScreenIndex == 0)
             {
                 //Calling Cancel() method to make sure the Bottom panel is not visible on the starting page of the app
@@ -93,15 +94,21 @@ namespace DraganTalamh.Handlers
             //Creating new RaceScreenCotroller object - a new screen for selecting a race
             RaceScreenController raceScreen = new RaceScreenController();
 
-            //Removing the current screen from the main form's RightPanel and inserting the raceScreen on its place
-            MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
-            MainForm.GetInstance().RightPanel.Controls.Add(raceScreen);
+            //This if statement checks if the user clicks the RaceScreenButton more than once at a time
+            if (!currentScreen.GetType().Equals(raceScreen.GetType()))
+            {
+                //Removing the current screen from the main form's RightPanel and inserting the raceScreen on its place
+                MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
+                MainForm.GetInstance().RightPanel.Controls.Add(raceScreen);
 
-            //Setting the currentScreen to point to the raceScreen and add raceScreen to the screenHistory list
-            currentScreen = raceScreen;
-            screenHistory.Add(raceScreen);
+                //Setting the currentScreen to point to the raceScreen and add raceScreen to the screenHistory list
+                screenHistory.Add(raceScreen);
 
-           
+                currentScreen = raceScreen;
+            }
+
+          
+                
         }
     }
 }
