@@ -8,28 +8,28 @@ namespace DraganTalamh.Handlers
     static public class ScreenHandler
     {
         /// <summary>
-        /// 
+        /// This property will reference the current screen user control loaded
+        /// in the RightPanel of the Main form.
         /// </summary>
         private static UserControl currentScreen { get; set; }
 
         /// <summary>
-        /// 
+        /// screenHistory will hold a list of the visited user control screens. 
         /// </summary>
         private static List<UserControl> screenHistory { get; set; }
 
         /// <summary>
-        /// 
+        /// If user hits Cancel button, the start up screen is going to be loaded.
+        /// ScreenHandler properties will be reset.
         /// </summary>
         public static void Cancel()
-        {
-            //If user hits Cancel button, the start up screen is going to be loaded
-            //ScreenHandler properties will be reset
+        {          
             MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
             ShowStartScreen();
         }
 
         /// <summary>
-        /// 
+        /// This method will load the previous user control screen in the RightPanel if any.
         /// </summary>
         public static void Back()
         {
@@ -54,7 +54,8 @@ namespace DraganTalamh.Handlers
         }
 
         /// <summary>
-        /// 
+        /// The method adds Menu, Start and Bottom screens to their relevant containers
+        /// and assigns the property fields.
         /// </summary>
         public static void ShowStartScreen()
         {
@@ -82,12 +83,12 @@ namespace DraganTalamh.Handlers
         }
 
         /// <summary>
-        /// 
+        /// This method displays the Pagination screen control in the BottomPanel.
+        /// Creates a new RaceScreenController and updates the properties currentScreen
+        /// and screenHistory with their new values. 
         /// </summary>
         public static void ShowRaceScreen()
         {
-            //Displaying the BottomPanel
-            
             if (!MainForm.GetInstance().BottomPanel.HasChildren)
             {
                 PaginationScreenController paginationScreen = new PaginationScreenController();
