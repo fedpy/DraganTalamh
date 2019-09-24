@@ -20,12 +20,13 @@ namespace DraganTalamh.GUI
 
         private void OnMainScreenButtonClick(object sender, EventArgs e)
         {
-            MainForm.GetInstance().RightPanel.Controls.RemoveAt(0); //The RightPanel will always have one UserControl in its list of controls
+            MainForm.GetInstance().RightPanel.Controls.RemoveAt(0); 
             ScreenHandler.ShowStartScreen();
         }
 
         private void OnRaceScreenButtonClick(object sender, EventArgs e)
         {
+
             ScreenHandler.ShowRaceScreen();
         }
 

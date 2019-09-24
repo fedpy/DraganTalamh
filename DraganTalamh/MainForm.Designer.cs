@@ -63,6 +63,8 @@
             this.Controls.Add(this.BottomPanel);
             this.Controls.Add(this.RightPanel);
             this.Controls.Add(this.LeftPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Dragan Talamh Character Creator";
             this.ResumeLayout(false);

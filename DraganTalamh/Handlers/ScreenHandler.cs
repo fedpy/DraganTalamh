@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DraganTalamh.GUI;
 
@@ -40,18 +37,17 @@ namespace DraganTalamh.Handlers
             int previousScreenIndex = screenHistory.IndexOf(currentScreen)-1;
 
             //Checking if the index is not out of range
-            if (previousScreenIndex>0){
-
+            if (previousScreenIndex>0)
+            {
                 //Setting the RightPanel to display the previous screen
                 MainForm.GetInstance().RightPanel.Controls.Remove(currentScreen);
                 MainForm.GetInstance().RightPanel.Controls.Add(screenHistory.ElementAt(previousScreenIndex));
 
                 //setting the currentScreen property to the previously viewed screen
-                currentScreen = screenHistory.ElementAt(previousScreenIndex);
-                
-            }else if (previousScreenIndex == 0)
+                currentScreen = screenHistory.ElementAt(previousScreenIndex);                
+            }
+            else if (previousScreenIndex == 0)
             {
-                //Calling Cancel() method to make sure the Bottom panel is not visible on the starting page of the app
                 Cancel();
             }
             
@@ -85,11 +81,19 @@ namespace DraganTalamh.Handlers
             screenHistory = currentScrenHistory;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public static void ShowRaceScreen()
         {
             //Displaying the BottomPanel
-            PaginationScreenController paginationScreen = new PaginationScreenController();
-            MainForm.GetInstance().BottomPanel.Controls.Add(paginationScreen);
+            
+            if (!MainForm.GetInstance().BottomPanel.HasChildren)
+            {
+                PaginationScreenController paginationScreen = new PaginationScreenController();
+                MainForm.GetInstance().BottomPanel.Controls.Add(paginationScreen);
+            }
+            
 
             //Creating new RaceScreenCotroller object - a new screen for selecting a race
             RaceScreenController raceScreen = new RaceScreenController();
