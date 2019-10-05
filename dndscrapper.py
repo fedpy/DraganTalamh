@@ -1,3 +1,5 @@
+# Basic functionality working - getting full page source to be parsed.
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -17,8 +19,9 @@ driver.get("https://roll20.net/compendium/dnd5e/Items%20List#content")
 
 try:
     for i in range(1, 8):
-        # bug if link on element below is hitting in the centre of element, offset might be a solution
-        # ie like in 9th element
+        # There is a bug if a link on the element is overlapping its centre ie like in 9th element,
+        # Will work on offset solution.
+
         driver.find_element_by_xpath("//*[@id='pagecontent']/div[3]/div[" + str(i) + "]/div[1]").click()
 
     pageSource = driver.page_source
