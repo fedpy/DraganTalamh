@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // ======================================
 // = Author: Andrew English             =
-// = Date:     4/09/2019                =
+// = Date:     24/09/2019               =
 // ======================================
 // = Description:                       =
-// = Third iteration of the DT dice     =
+// = Fourth iteration of the DT dice    =
 // = Includes ability to roll same dice =
-// = twice and roll mulltiple die       =
+// = twice and roll mulltiple die.      =
 // ======================================
 
 namespace DraganTalamh.Extras
@@ -44,7 +40,6 @@ namespace DraganTalamh.Extras
         /// </remarks>
         public static int DiceFour(int numberOfDiceRolls)
         {
-
             int result = 0;
             for (int i = 0; i < numberOfDiceRolls; i++)
             {
@@ -113,7 +108,7 @@ namespace DraganTalamh.Extras
             int result = 0;
             for (int i = 0; i < numberOfDiceRolls; i++)
             {
-                result += randomNumber.Next(0, 11);
+                result += randomNumber.Next(1, 11);
             }
             return result;
         }
@@ -122,7 +117,7 @@ namespace DraganTalamh.Extras
         /// Random 100 sided dice generator
         /// </summary>
         /// <returns>
-        /// An integer number between 0 and 100
+        /// An integer number between 1 and 100
         /// </returns>
         /// <remarks>
         /// Creates Dice 100 which has the values between 0 and 100
@@ -134,7 +129,7 @@ namespace DraganTalamh.Extras
             int result = 0;
             for (int i = 0; i < numberOfDiceRolls; i++)
             {
-                result += randomNumber.Next(0, 101);
+                result += randomNumber.Next(1 , 101);
             }
             return result;
         }
@@ -217,14 +212,11 @@ namespace DraganTalamh.Extras
                 result += DiceHandler.DiceTwelve(1);
             }
 
+            //Beginning of second dice
 
             if (secondDice == 4)
             {
                 result += DiceFour(1);
-            }
-            else if (secondDice == 4)
-            {
-                result += DiceHandler.DiceFour(1);
             }
             else if(secondDice == 6)
             {
@@ -243,9 +235,6 @@ namespace DraganTalamh.Extras
                 result += DiceHandler.DiceTwelve(1);
             }
             return result;
-           
         }
-
-  
     }
 }

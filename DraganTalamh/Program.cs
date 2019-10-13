@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DraganTalamh.Handlers;
 
-namespace DraganTalamh.Extras
+namespace DraganTalamh
 {
     static class Program
     {
@@ -14,9 +15,17 @@ namespace DraganTalamh.Extras
         [STAThread]
         static void Main()
         {
-            //
-            // Please keep this space clear, thank you! <fedpy>
-            //
+            // Enable visual styles for the application
+            Application.EnableVisualStyles();
+
+            // Set the default rendering engine
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            // Load the Start Screen and Menu Screen
+            ScreenHandler.ShowStartScreen();
+
+            // Execute the application
+            Application.Run(MainForm.GetInstance());
         }
     }
 }
