@@ -1,5 +1,0 @@
-/* 
-
-	Dragan Talamh - main.js
-
-*/

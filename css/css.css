@@ -1,14 +1,20 @@
-﻿/* this is styling the logo */
+﻿body {
+    text-align: center;
+}
+
+/* this is styling the logo */
 .img {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
 }
+
 /*Setting the size of the logo*/
 .LogoSize {
     height: 300px;
     width: 300px;
 }
+
 /*Styling the main Heading*/
 .HeadingTxt {
     text-align: center;
@@ -16,6 +22,7 @@
     font-family: fantasy;
     font-style: italic;
 }
+
 /*Styling the counter*/
 .counter {
     margin-top: 8%;
@@ -26,12 +33,14 @@
     font-style: oblique;
     font-family: sans-serif;
 }
+
 /*stying the h2 */
 .SubHeading {
     text-align: center;
     font-size: 8ch;
     font-style: italic;
 }
+
 /*styling the description of the project*/
 .ParagraphText {
     text-align: center;
@@ -40,11 +49,13 @@
     margin-left: 11%;
     margin-right: 11%;
 }
+
 /*Stying the background of the website*/
 .Background {
     background: rgb(255,0,0);
     background: linear-gradient(285deg, rgba(255,0,0,0.7791491596638656) 38%, rgba(6,24,255,0.5914740896358543) 62%);
 }
+
 /*Postioning the github logo to be in the center*/
 .centerGitLogo {
     text-align: center;
